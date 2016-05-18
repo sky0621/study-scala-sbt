@@ -4,6 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/study-scala-sbt.iml" filepath="$PROJECT_DIR$/.idea/modules/study-scala-sbt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/study-scala-sbt-build.iml" filepath="$PROJECT_DIR$/.idea/modules/study-scala-sbt-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sub_pj_back_web.iml" filepath="$PROJECT_DIR$/.idea/modules/sub_pj_back_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sub_pj_back_web-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sub_pj_back_web-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sub_pj_common.iml" filepath="$PROJECT_DIR$/.idea/modules/sub_pj_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sub_pj_common-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sub_pj_common-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sub_pj_front_web.iml" filepath="$PROJECT_DIR$/.idea/modules/sub_pj_front_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sub_pj_front_web-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sub_pj_front_web-build.iml" />
     </modules>
   </component>
 </project>
