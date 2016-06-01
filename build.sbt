@@ -18,6 +18,17 @@ filterDirectoryName := "filters/develop"
 // filterDirectoryName := "filters/production"
 
 // [213]テストのカバレッジを測定するための設定
-import de.johoop.jacoco4sbt._
-import jacocoPlugin._
-Seq(jacoco.settings : _*)
+//import de.johoop.jacoco4sbt._
+//import jacocoPlugin._
+//Seq(jacoco.settings : _*)
+jacoco.settings
+
+// [214]Webアプリケーションを開発するための設定
+// 参考：http://thachinohe.hatenablog.com/entry/scala_abc/010
+// Jetty起動コマンド：sbt ~jetty:start
+libraryDependencies ++= Seq(
+  "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
+  "org.scalatest" %% "scalatest" % "2.2.5" % "test"
+)
+enablePlugins(JettyPlugin)
+containerPort := 9898

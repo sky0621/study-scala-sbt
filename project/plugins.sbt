@@ -14,10 +14,13 @@ resolvers ++= Seq(
 addSbtPlugin("com.github.sdb" % "xsbt-filter" % "0.4")
 
 // [213]テストのカバレッジを測定するためのプラグイン
-libraryDependencies ++= Seq(
-  "org.jacoco" % "org.jacoco.core" % "0.7.6.201602180812"
-  artifacts(Artifact("org.jacoco.core", "jar", "jar")),
-  "org.jacoco" % "org.jacoco.report" % "0.7.6.201602180812"
-  artifacts(Artifact("org.jacoco.report", "jar", "jar"))
-)
+//libraryDependencies ++= Seq(
+//  "org.jacoco" % "org.jacoco.core" % "0.7.6.201602180812"
+//  artifacts(Artifact("org.jacoco.core", "jar", "jar")),
+//  "org.jacoco" % "org.jacoco.report" % "0.7.6.201602180812"
+//  artifacts(Artifact("org.jacoco.report", "jar", "jar"))
+//)
 addSbtPlugin("de.johoop" % "jacoco4sbt" % "2.1.6")
+
+// [214]Webアプリケーションを開発するためのプラグイン
+addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "2.0.5")
