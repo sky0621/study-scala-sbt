@@ -32,3 +32,9 @@ libraryDependencies ++= Seq(
 )
 enablePlugins(JettyPlugin)
 containerPort := 9898
+
+// [218]ScalaTest‚ğg‚¤‚½‚ß‚Ìİ’è
+//libraryDependencies += "org.scalactic" %% "scalactic" % "2.2.6"
+//libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.12.2" % "test"

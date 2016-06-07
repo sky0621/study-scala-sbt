@@ -24,3 +24,6 @@ addSbtPlugin("de.johoop" % "jacoco4sbt" % "2.1.6")
 
 // [214]Webアプリケーションを開発するためのプラグイン
 addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "2.0.5")
+
+// [218]ScalaTestを使うためのプラグイン
+resolvers += "Artima Maven Repository" at "http://repo.artima.com/releases"
