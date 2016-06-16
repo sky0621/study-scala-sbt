@@ -38,3 +38,8 @@ containerPort := 9898
 //libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.12.2" % "test"
+
+// [221]Specs2
+libraryDependencies ++= Seq("org.specs2" %% "specs2-core" % "3.8.3" % "test")
+
+scalacOptions in Test ++= Seq("-Yrangepos")
